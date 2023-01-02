@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.cw-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.cw-inner-container {
+  background-color: #150b3e;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  border-radius: 16px;
+  padding: 30px;
+}
+.cw-profile-name-container {
+  display: flex;
+}
+.cw-profile {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.cw-profile-name {
+  color: #d4d2db;
+  font-size: 20px;
+  padding: 26px;
+  font-weight: 400;
+}
+.cw-balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.cw-balance-heading {
+  color: #585076;
+  font-size: 22px;
+  font-weight: 500;
+  padding-right: 220px;
+  padding-top: 20px;
+}
+.cw-balance-count {
+  color: #c4c4c4;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.cw-rupees {
+  color: #585076;
+  padding-left: 350px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.cw-heading {
+  color: #d4d2db;
+  font-weight: 400;
+  font-size: 25px;
+}
+.cw-para {
+  color: #585076;
+  font-weight: 500;
+}
+
+.cw-cash-container {
+  display: flex;
+  flex-wrap: wrap;
+}
